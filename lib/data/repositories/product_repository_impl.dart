@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:my_products/data/datasources/product_datasource.dart';
+import 'package:my_products/data/datasources/product/product_datasource.dart';
 import 'package:my_products/domain/models/category.dart';
 import 'package:my_products/domain/models/product.dart';
 import 'package:my_products/domain/repositories/product_repository.dart';

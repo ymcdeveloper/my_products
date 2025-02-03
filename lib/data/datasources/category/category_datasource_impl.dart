@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:my_products/data/datasources/category_datasource.dart';
+import 'package:my_products/data/datasources/category/category_datasource.dart';
 import 'package:my_products/data/dtos/category_dto.dart';
 import 'package:my_products/domain/models/category.dart';
 import 'package:my_products/utils/errors/failure.dart';

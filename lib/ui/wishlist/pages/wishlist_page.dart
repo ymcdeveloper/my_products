@@ -26,7 +26,7 @@ class _WishlistPageState extends State<WishlistPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wishlist'),
+        title: const Text('Lista de desejos'),
       ),
       body: BlocBuilder<WishlistCubit, WishlistState>(
         builder: (context, state) {

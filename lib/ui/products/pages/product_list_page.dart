@@ -43,7 +43,7 @@ class _ProductListPageState extends State<ProductListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Products'),
+        title: Text(widget.category.name),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(60),
           child: Padding(

@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:my_products/data/datasources/category_datasource.dart';
-import 'package:my_products/data/datasources/category_datasource_impl.dart';
-import 'package:my_products/data/datasources/product_datasource.dart';
-import 'package:my_products/data/datasources/product_datasource_impl.dart';
+import 'package:my_products/data/datasources/category/category_datasource.dart';
+import 'package:my_products/data/datasources/category/category_datasource_impl.dart';
+import 'package:my_products/data/datasources/product/product_datasource.dart';
+import 'package:my_products/data/datasources/product/product_datasource_impl.dart';
 import 'package:my_products/data/repositories/category_repository_impl.dart';
 import 'package:my_products/data/repositories/product_repository_impl.dart';
 import 'package:my_products/domain/repositories/category_repository.dart';

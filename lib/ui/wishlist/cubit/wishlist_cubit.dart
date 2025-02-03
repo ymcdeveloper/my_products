@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:my_products/data/datasources/product_datasource.dart';
+import 'package:my_products/data/datasources/product/product_datasource.dart';
 import 'package:my_products/domain/models/category.dart';
 import 'package:my_products/domain/models/product.dart';
 import 'package:my_products/utils/services/local_storage.dart';

@@ -18,8 +18,12 @@ class _ProductItemWidgetState extends State<ProductItemWidget> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        context.push('/product_detail', extra: {'product': widget.product});
+      onTap: () async {
+        final result = await context.push('/product_detail', extra: {'product': widget.product});
+
+        if(result == true) {
+          widget.onWishlistTap();
+        }
       },
       child: Card(
         color: Colors.white,
