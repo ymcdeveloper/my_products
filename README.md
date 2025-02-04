@@ -36,9 +36,5 @@ Siga os passos abaixo para configurar e executar o projeto localmente.
 1. Clone o repositório:  
    ```sh
    git clone https://github.com/ymcdeveloper/my_products.git && cd my_products
-2. 
-                    ```sh
-                    flutter pub get 
-3. 
-```
-flutter run
+2. `flutter pub get` 
+3. `flutter run`
