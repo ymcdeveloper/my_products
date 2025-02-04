@@ -39,18 +39,18 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
           child: Stack(
             children: [
               SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Image.network(
-                      widget.product.image,
-                      height: 350,
-                      width: double.infinity,
-                      fit: BoxFit.contain,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.network(
+                        widget.product.image,
+                        height: 350,
+                        width: double.infinity,
+                        fit: BoxFit.contain,
+                      ),
+                      Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
@@ -93,8 +93,8 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                           const SizedBox(height: 80),
                         ],
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
               Positioned(
